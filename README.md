@@ -1,4 +1,4 @@
-# Egyptian Banknote Detection & Counting — YOLOv8
+# Egyptian Banknote Detection & Counting: YOLOv8
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AsserGharib1/EgyptianBanknoteDetectionYOLOV8/blob/main/egyptian_banknote_detection_yolov8.ipynb)
 [![View on nbviewer](https://img.shields.io/badge/view%20full%20notebook-nbviewer-F37626?logo=jupyter&logoColor=white)](https://nbviewer.org/github/AsserGharib1/EgyptianBanknoteDetectionYOLOV8/blob/main/egyptian_banknote_detection_yolov8.ipynb)
@@ -45,7 +45,7 @@ Noisy input:
 
 ## Repository contents
 
-- `egyptian_banknote_detection_yolov8.ipynb` — training, inference, and all seven robustness experiments with visual outputs.
+- `egyptian_banknote_detection_yolov8.ipynb`: training, inference, and all seven robustness experiments with visual outputs.
 
 ## Running
 
