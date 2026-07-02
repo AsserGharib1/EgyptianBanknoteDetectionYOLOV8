@@ -1,5 +1,11 @@
 # Egyptian Banknote Detection & Counting — YOLOv8
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AsserGharib1/EgyptianBanknoteDetectionYOLOV8/blob/main/egyptian_banknote_detection_yolov8.ipynb)
+[![View on nbviewer](https://img.shields.io/badge/view%20full%20notebook-nbviewer-F37626?logo=jupyter&logoColor=white)](https://nbviewer.org/github/AsserGharib1/EgyptianBanknoteDetectionYOLOV8/blob/main/egyptian_banknote_detection_yolov8.ipynb)
+
+> **Viewing tip:** GitHub truncates the inline preview of large notebooks (this one preserves all training outputs). Use the **nbviewer** badge above to read it fully rendered in the browser, or **Colab** to open it interactively.
+
+
 Fine-tuned YOLOv8 detector that recognizes and counts Egyptian banknotes in images, robust to overlap, rotation, poor illumination, and noise.
 
 ## Results (validation set)
@@ -22,6 +28,20 @@ Validated across **7 test scenarios**, with annotated prediction outputs preserv
 5. Slightly rotated frames
 6. Poor illumination
 7. Injected image noise
+
+## Detection examples
+
+Single upright banknote:
+
+![Single note](figures/single_note_detection.jpg)
+
+Overlapping banknotes:
+
+![Overlapping notes](figures/overlapping_notes.jpg)
+
+Noisy input:
+
+![Noisy input](figures/noisy_input_detection.jpg)
 
 ## Repository contents
 
