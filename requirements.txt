@@ -1,5 +1,7 @@
-ultralytics
-torch
-opencv-python
-numpy
-matplotlib
+# Version ranges match the APIs used in this project (developed 2025-2026).
+# Lower bounds are required, upper caps guard against breaking major releases.
+ultralytics>=8.2,<9
+torch>=2.6,<3
+opencv-python>=4.9,<5
+numpy>=1.26,<3
+matplotlib>=3.8,<4
